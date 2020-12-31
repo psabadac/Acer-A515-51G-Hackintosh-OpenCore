@@ -1,1 +1,1 @@
-# -Acer-A515-51G-Hackintosh-OpenCore
+# Acer-A515-51G-Hackintosh-OpenCore
