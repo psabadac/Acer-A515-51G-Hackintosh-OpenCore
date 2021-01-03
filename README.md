@@ -1,6 +1,8 @@
 # Acer-A515-51G-Hackintosh-OpenCore
 
-## Add FixAudio and hda-verb to home folder ~/ and add FixAudio as a login startup item.
+## Fix Audio Jack noise:
+
+### Add FixAudio and hda-verb to home folder ~/ and add FixAudio as a login startup item.
 
 ## If you don't want to use the FixAudio automator app, you can make your own using this guide:
 
