@@ -114,6 +114,11 @@
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -619,21 +624,21 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02910405GUHWVPFB</string>
+			<string>C02931100QXJH4RCB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>iLERhMQC</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YD0EGHV29</string>
+			<string>C02Z506CJHCC</string>
 			<key>SystemUUID</key>
-			<string>E5562AF6-5E8B-4449-9507-7B3E3088503B</string>
+			<string>C1C1FA55-C755-41E7-BAE9-E452AD09B9F8</string>
 		</dict>
 		<key>Memory</key>
 		<dict>
