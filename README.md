@@ -53,12 +53,8 @@
 - **Audio** : The Sound Card is `Realtek ALC255`, which is driven by `AppleALC` on `layout-id 30`.
 
 - **CPU** : The CPU model is `i5-8250U` and XCPM power management is natively supported.
- - - XCPM and HWP are recommended to work together to reach better power management, by injecting `plugin-type=1` with `SSDT-XCPM`, and using `CPUFriend.kext`.
 
 - **Graphics** : The iGPU is `Intel UHD Graphics 620`, and its enabled using `Ig-Platform-id=0x191E0000`.
-- - The discrete dGPU is `NVIDIA GeForce MX150`, and it is disabled because macOS doesn't support optimus technology. Plus battery life is much improved.
-- - The colour branding or corrupted color depth is fixed with Intel Skylake spoof and EDID fix.
-- - Native brightness hotkey support using `DSDT.aml`.
 
 - **Battery** : Battery Management using `SMCBatteryManager.kext`.
 
