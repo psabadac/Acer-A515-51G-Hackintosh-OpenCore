@@ -50,7 +50,7 @@
 ### Laptop configuration
 
 
-- **Audio** : The Sound Card is `Realtek ALC255`, which is driven by `AppleALC` on `layout-id 3`.
+- **Audio** : The Sound Card is `Realtek ALC255`, which is driven by `AppleALC` on `layout-id 30`.
 
 - **CPU** : The CPU model is `i5-8250U` and XCPM power management is natively supported.
  - - XCPM and HWP are recommended to work together to reach better power management, by injecting `plugin-type=1` with `SSDT-XCPM`, and using `CPUFriend.kext`.
