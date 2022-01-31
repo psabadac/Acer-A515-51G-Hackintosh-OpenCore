@@ -69,9 +69,10 @@
 - **HDMI** : Working using `WhateverGreen.kext`.
 
 - **Wi-Fi** : Stock WiFi Card is `Intel Wireless AC 3168` 
-- - It supported using **OpenIntelWireless** with [heliport](https://github.com/OpenIntelWireless/HeliPort) and [itlwm](https://github.com/OpenIntelWireless/itlwm)
+- - It supported using **OpenIntelWireless** with [OpenIntelWireless](https://github.com/OpenIntelWireless/)
 
-- **Bluetooth** : Stock `Intel Wireless AC 3168` BT will work out-of-the box.
+- **Bluetooth** : Stock `Intel Wireless AC 3168`
+- - - It supported using **IntelBluetoothFirmware** with [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 - **SD Card Reader** : Internal SD Card Support using Modified Sinetek's rtsx Driver.
 
 ## Credits
