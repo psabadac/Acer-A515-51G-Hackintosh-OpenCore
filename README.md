@@ -2,7 +2,7 @@
 
 # Acer-A515-51G-51D3-Hackintosh
 
-#### Tested with MacOS 12.2
+#### Tested with macOS Monterey 12.2
 
 <p align="center">
   <img src="https://i.imgur.com/WHjb8Wg.png" alt="Specs">
