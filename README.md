@@ -2,10 +2,8 @@
 
 # Acer-A515-51G-51D3-Hackintosh
 
-#### Tested with macOS Monterey 12.2
-
 <p align="center">
-  <img src="https://i.imgur.com/WHjb8Wg.png" alt="Specs">
+  <img src="https://i.imgur.com/O9WG5Np.png" alt="Specs">
 </p>
 
 
@@ -15,26 +13,17 @@
  - [x] iGPU with disabled dGPU
  - [x] Fully Functional QE/CI Enabled Graphics
  - [x] Battery Management
- - [x] ACPI Display brightness with hot keys / slider
  - [x] Ethernet
- - [x] Internal SD card Reader
  - [x] HDMI + Audio
- - [x] Sleep + Wake
  - [x] Smart Touchpad + Gestures (using I2C)
  - [x] WebCam
  - [x] Usb 3.0 + Type C
- - [x] Sleep From Lid
- - [x] WiFi by using HeliPort and itlwm.kext
+ - [x] WiFi
  - [x] Native hotkey support with Fn keys
 
-<p align="center">
-  <img src="https://i.imgur.com/A0cKRrX.png" alt="Benchmarks">
-</p>
-
-  - Geekbench Score :
-  - - Single-Core Score : 4219 [Link](https://browser.geekbench.com/v4/cpu/13793813).
-  - - Multi-Core Score : 14837 [Link](https://browser.geekbench.com/v4/cpu/13793813).
-  - - GPU OpenCL Score : 31191 [Link](https://browser.geekbench.com/v4/compute/4258348).
+## What's not Working
+ - [ ] Sleep + Wake
+ - [ ] Brightness + Brightness Keys
 
 ## Installation
 
@@ -45,12 +34,12 @@
 
 ### Post Installation
 
-- - Copy **ALL** the Contains of this Repo inside the EFI partition of Hard Drive where you installed the OS
+- Copy **ALL** the Contains of this Repo inside the EFI partition of Hard Drive where you installed the OS
 ---
 ### Laptop configuration
 
 
-- **Audio** : The Sound Card is `Realtek ALC255`, which is driven by `AppleALC` on `layout-id 30`.
+- **Audio** : The Sound Card is `Realtek ALC255`, which is driven by `AppleALC` on `layout-id 30`. It supported using `AppleALC.kext`
 
 - **CPU** : The CPU model is `i5-8250U` and XCPM power management is natively supported.
 
@@ -58,18 +47,19 @@
 
 - **Battery** : Battery Management using `SMCBatteryManager.kext`.
 
-- **Backlight** : Native Brightness control using `SSDT-PNLF.aml`.
+- **Touchpad** : Elan Touchpad. Supported using `VoodooI2C.kext` + `VoodooI2CHID.kext`
+
+- **Keyboard** : PS2. Supported using `VoodooPS2Controller.kext`
+
+- **USBs** : Custom generated. Supported using `USBToolBox.kext` + `UTBMap.kext`
 
 - **Ethernet** : Gigabit Ethernet using `RealtekRTL8111.kext`.
 
 - **HDMI** : Working using `WhateverGreen.kext`.
 
-- **Wi-Fi** : Stock WiFi Card is `Intel Wireless AC 3168` 
-- - It supported using **OpenIntelWireless** with [OpenIntelWireless](https://github.com/OpenIntelWireless/)
+- **Wi-Fi** : Stock WiFi Card is `Intel Wireless AC 3168`. It supported using `AirportItlwm.kext`
 
-- **Bluetooth** : Stock `Intel Wireless AC 3168`
-- - - It supported using **IntelBluetoothFirmware** with [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- **SD Card Reader** : Internal SD Card Support using Modified Sinetek's rtsx Driver.
+- **Bluetooth** : Stock `Intel Wireless AC 3168`. Supported using `IntelBluetoothFirmware.kext` + `IntelBTPatcher.kext` + `BlueToolFixup.kext`
 
 ## Credits
 
