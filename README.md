@@ -1,6 +1,6 @@
 
 
-# Acer-A515-51G-51D3-Hackintosh
+# Acer A515 51G 51D3 Hackintosh
 
 <p align="center">
   <img src="https://i.imgur.com/O9WG5Np.png" alt="Specs">
