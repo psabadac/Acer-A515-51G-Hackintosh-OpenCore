@@ -3,7 +3,7 @@
 # Acer A515 51G 51D3 Hackintosh
 
 <p align="center">
-  <img src="https://i.imgur.com/O9WG5Np.png" alt="Specs">
+  <img src="https://i.imgur.com/i1Yvmvc.png" alt="Specs">
 </p>
 
 
