@@ -20,10 +20,11 @@
  - [x] Usb 3.0 + Type C
  - [x] WiFi
  - [x] Native hotkey support with Fn keys
+ - [x] Sleep + Wake
+ - [x] Brightness + Brightness Keys
 
 ## What's not Working
- - [ ] Sleep + Wake
- - [ ] Brightness + Brightness Keys
+ - [ ] Probably AirDrop and Handoff since the Intel card are not fully compatible with macOS
 
 ## Installation
 
