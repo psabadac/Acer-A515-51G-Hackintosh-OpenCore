@@ -63,4 +63,4 @@
 
 ## Credits
 
-- **Special Thanks** to [zqlovezone](https://github.com/zqlovezone/ACER-TX520-Hackintosh-Opencore) from where I've forked it.
+- **Special Thanks** to [gabrielcasag](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U) from where I've forked it.
