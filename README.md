@@ -36,6 +36,7 @@
 ### Post Installation
 
 - Copy **ALL** the Contains of this Repo inside the EFI partition of Hard Drive where you installed the OS
+- In case of black screen make sure to set ProvideConsoleGop to false
 ---
 ### Laptop configuration
 
